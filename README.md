@@ -2,6 +2,7 @@
 
 一个数字信号处理练习项目。
 基于GMM-UBM模型的声纹识别系统。分别使用FBANK、MFCC和PNCC三种特征提取方法。
+0、运行 yu_pos.py 对数据集进行静音消除处理（可选）
 1、下载 TIMIT 数据集放在根目录
 2、运行 train_spk_model.py 生成 ubm_wav.scp，test.scp
 3、运行  val_enrollment_scp.py  生成 enrollment.scp，var.scp
@@ -12,6 +13,7 @@
 
 A digital signal processing exercise project.
 Voiceprint recognition system based on GMM-UBM model. Three feature extraction methods, FBANK, MFCC and PNCC, were used, respectively.
+0. Run yu_pos.py to mute the dataset (optional)
 1. Download the TIMIT dataset and place it in the root directory
 2. Run train_spk_model.py to generate ubm_wav.scp, test.scp
 3. Run val_enrollment_scp.py to generate enrollment.scp,var.scp
