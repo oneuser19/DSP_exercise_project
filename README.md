@@ -1,4 +1,5 @@
 # DSP_exercise_project
+
 一个数字信号处理练习项目。
 基于GMM-UBM模型的声纹识别系统。分别使用FBANK、MFCC和PNCC三种特征提取方法。
 1、下载 TIMIT 数据集放在根目录
